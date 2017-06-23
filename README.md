@@ -3,7 +3,7 @@ UC Paymaster module for Drupal 6
 
 Модуль предназначен для работы с Drupal 6 и Ubercart 2
 
-1. Закачать файлы из архива через ftp в папку sites/all/modules/modules/ubercart/payment. 
+1. Закачать файлы из архива через ftp в папку sites/all/modules/modules/ubercart/payment/uc_paymaster. 
 
 2. В директории сайта admin/store/settings/payment/edit/methods произвести настройки: 
 - Merchant id — идентификатор сайта (его можно взять в личном кабинете PayMaster);
@@ -21,6 +21,9 @@ UC Paymaster module for Drupal 6
 В Success redirect выбрать POST-запрос и прописать: http://ВАШ_САЙТ.ru/cart/paymaster/success
 
 В Failure redirect выбрать POST-запрос и прописать: http://ВАШ_САЙТ.ru/cart/paymaster/fail
+
+Также очень важно не забыть прописать в интерфейсе PayMaster.ru "Технические параметры->Тип подписи->md5" 
+И также очень важно прописать "Секретный ключ", который скрыт в целях безопасности, он нужен для верификации оплаты и должен совпадать с "Merchant secret key" из пункта 2. 
 
 _Все вопросы по разработке/доработке модуля присылайте на awa77 собака mail.ru
 Автор Алексей А._ 
