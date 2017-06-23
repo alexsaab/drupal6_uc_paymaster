@@ -21,3 +21,6 @@ UC Paymaster module for Drupal 6
 В Success redirect выбрать POST-запрос и прописать: http://ВАШ_САЙТ.ru/cart/paymaster/success
 
 В Failure redirect выбрать POST-запрос и прописать: http://ВАШ_САЙТ.ru/cart/paymaster/fail
+
+_Все вопросы по разработке/доработке модуля присылайте на awa77 собака mail.ru
+Автор Алексей А._ 
